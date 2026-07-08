@@ -14,25 +14,87 @@
 
 Freeshow 教程，遇见 福建师范的一个朋友
 
+流程 注意事项
+
+
+
+### 背景
+
+**动态背景 (Motion Backgrounds / Video Loops)：** 无缝循环的视频动画（如粒子、光斑、缓慢流动的色彩、大自然风景），常用于歌曲歌词背景，能增加舞台动感而不喧宾夺主。
+
+**静态背景 (Stills / Images)：** 高清的风景、抽象几何、十字架或极简风格的图片。适合讲员分享、公告或对阅读清晰度要求极高的环节。
+
+**倒计时视频 (Countdowns)：** 带有 5 分钟、3 分钟等倒计时的动态视频，用于活动开始前，提醒观众就座。
+
+**主题/讲道插图 (Mini-Movies / Sermon Illustrations)：** 带有特定主题（如节日、特定经文或主题演讲）的短视频，用于引入话题或转场。
+
+**纯色块与氛围层 (Abstract & Ambient)：** 颜色渐变或半透明的蒙版层，用于叠加在摄像头实时画面或复杂的图片上，确保前排文本清晰可见。
+
+
+
+### 文字
+
+- 字体
+- 大小
+- 位置
+- 行数行间距
+- 颜色
+
+
+
 别的软件主要有 ProPresenter，极演
 
 - ProPresenter
 
-<img src="./assets/663d3315c5e299e5e82b028a_Windows-UI-Surface-Studio-1024x891.png" alt="img" style="zoom: 67%;" />
+  <img src="./assets/663d3315c5e299e5e82b028a_Windows-UI-Surface-Studio-1024x891.png" alt="img" style="zoom: 67%;" />
+
+  ![image-20260708134454832](./assets/image-20260708134454832.png)
 
 - 极演
+
+![image-20260708134059335](./assets/image-20260708134059335.png)
+
+
 
 
 
 提词器：
 
-<img src="./assets/image-20260707162440023-1783412683263-1.png" alt="image-20260707162440023" style="zoom: 67%;" />
+![image-20260708134522835](./assets/image-20260708134522835.png)
 
 
 
-## 导播 OBS
+## 导播
+
+### OBS
 
 
+
+
+
+### 导播台
+
+将各种输入的音视频素材，实时、精准、美观地编排后呈现
+
+功能：
+
+- 画面切换
+- 预览与输出，辅助输出
+- 内部视频矩阵
+- 混合特效列
+- 净信号输出
+- 特效转场
+- 多画面监看
+- 叠加
+- 音频处理
+- 推流与节目录制
+- 宏命令
+
+<img src="./assets/dce8839b4fdbe941bdd98271.jpg" alt="img" style="zoom: 80%;" />
+
+<img src="./assets/v-8hd_img_panel_top.jpg" alt="img" style="zoom: 50%;" />
+
+<img src="./assets/v-8hd_img_panel_rear.jpg" alt="img" style="zoom:50%;" />
 
 
 
