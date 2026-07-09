@@ -1,11 +1,11 @@
 ## 媒体与投影系统 (Media & Projection)
 
+作为一种技能，而不是每次都必须要用
+
 **PPT与专业投影软件对比**
 
 - **PPT 的痛点：** 线性播放，跳转翻页困难；无法将控制界面与输出界面完全分离；修改背景需要每一页单独改
 - **专业软件（如 FreeShow / ProPresenter）的核心：** **图层逻辑（Layers）**。讲解背景层、歌词层、音频层是完全独立的。换背景不影响歌词，清空歌词不影响背景
-
-
 
 ## 诗歌软件
 
@@ -16,8 +16,6 @@
 赞美诗歌大全：投影快速，格式调整方便
 
 <img src="./assets/image-20260708114514087.png" alt="image-20260708114514087" style="zoom: 67%;" />
-
-
 
 ## 圣经软件
 
@@ -31,13 +29,11 @@
 
 ## Freeshow 投影软件
 
-官网：https://freeshow.app/
+官网：<https://freeshow.app/>
 
 一款免费开源的演示/投影软件（Presentation Software），主要用于教堂崇拜和现场活动。模仿 ProPresenter，底层操作逻辑一样，但是功能很全并且实用
 
 个人经历分享：编写 Freeshow 教程，遇见 福建师范的一个朋友
-
-
 
 ### 背景
 
@@ -55,7 +51,7 @@
 
 ### 文字
 
-- 字体：注意搭配，推荐字体下载网址：https://fonts.google.com/specimen/Zhi+Mang+Xing，下载 ttf 文件后双击打开安装
+- 字体：注意搭配，推荐字体下载网址：<https://fonts.google.com/specimen/Zhi+Mang+Xing，下载> ttf 文件后双击打开安装
 
 ![image-20260709102110661](./assets/image-20260709102110661.png)
 
@@ -104,8 +100,6 @@
   - 散场 (Post-Service / Outro)：屏幕显示“感谢参与 / 下周见”，随后切回类似暖场环节的活动预告循环，播放散场音乐
 - 实时播放投影并随机应变突发情况
 
-
-
 ### 注意事项
 
 - **排版美学与规范：**
@@ -116,8 +110,6 @@
 - **歌词来源：** 对接诗歌本，赞美诗歌大全，联网搜索，Youtube，手打
 - **人性化 & 全程无感，自然**
 
-
-
 ## 其他投影软件
 
 - ProPresenter
@@ -127,8 +119,6 @@
 - 极演
 
 ![image-20260708134059335](./assets/image-20260708134059335.png)
-
-
 
 ## 导播
 
@@ -144,13 +134,9 @@ OBS:
 
 ![OBS Studio 31.1.0 Released with Multitrack Video for Linux & macOS |  UbuntuHandbook](./assets/obs-multitrack-video.webp)
 
-
-
 vMix:
 
 ![vMix PRO — Aries Pro - Videolink](./assets/vmix-pro-software-live-production-streaming-4k-video-image1_1024x1024.jpg)
-
-
 
 ### 导播台
 
