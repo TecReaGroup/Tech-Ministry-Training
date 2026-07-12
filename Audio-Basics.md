@@ -23,6 +23,8 @@
 - **dBm / dBV（电子学单位）：设备参数**
   - 以 1毫瓦（mW）或 1伏特（V）为基准，常用来衡量耳机放大器、Wi-Fi路由器天线的输出功率。
 
+<img src="./assets/6_SPL_01.png" alt="6_SPL_01.png" style="zoom: 50%;" />
+
 ### 1. 物理声学基础 (Physical Acoustics)
 
 * **声波（一种纵波，气体和液体中，如果在固体中还会有横波（例如地震））三要素**：频率 (Frequency/音高)、振幅 (Amplitude/响度)：介绍分贝、波形 (Waveform/音色)
@@ -96,18 +98,21 @@
 * **模数/数模转换**：ADC (Analog to Digital) 与 DAC (Digital to Analog)
 
 * **DSP （Digital Signal Processor）：**高端声卡会内部集成 DSP，从而低延迟加载效果器等。集成 ADC + 数字信号处理（狭义 DSP） + DAC，常见有小尾巴。
-![dsp](./assets/images.jpeg)
+
+<img src="./assets/image-20260710132228713.png" alt="image-20260710132228713" style="zoom:50%;" />
 
 * **采样率 (Sample Rate)**：奈奎斯特定理 (Nyquist Theorem)、常见标准 (44.1k, 48k, 96k, 192k)。相对于视频普通的 60FPS，音频采样频率很高，但是更高频率主要是为了减少失真。
   - 奈奎斯特定理 (Nyquist Theorem)：为了确保能够完美还原连续的模拟信号，采样频率必须至少是被测信号最高频率分量的 **两倍**，即音乐采样频率要为人耳两倍
 
 * **位深度 (Bit Depth)**：动态范围 (Dynamic Range)、量化噪声与抖动 (Dither)、常见标准 (16-bit, 24-bit, 32-bit float)
 
+<img src="./assets/7gtuekawx2.jpeg" alt="img" style="zoom:67%;" />
+
 * **系统参数**：缓冲大小 (Buffer Size) 与 延迟 (Latency)
 
 * **音频文件格式**：无损 (WAV, AIFF, FLAC) 与 有损 (MP3, AAC)
 
-*   **音质：**共同取决于 音源，解码与放大，发声单元，声学环境
+* **音质：**共同取决于 音源，解码与放大，发声单元，声学环境
 
 ---
 
@@ -120,18 +125,30 @@
 
 ### 2. 传输原理：平衡与非平衡 (Transmission Principles)
 *   **非平衡信号 (Unbalanced)**：单芯屏蔽 (Tip-Sleeve)，易受电磁干扰 (EMI/RFI)，适合短距离
+![img](https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-63f785256b6a7582cfa1dfaa76a3e8db.png)
 *   **平衡信号 (Balanced)**：双芯屏蔽 (Tip-Ring-Sleeve / Hot-Cold-Ground)，共模抑制比 (CMRR) 消除底噪，适合长距离
 
+![img](https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-4968d5ba89e615a358db6aee76940f6a.png)
+
 ### 3. 常见模拟接口与线材 (Analog Connectors)
+
+![img](./assets/v2-9790b203fed5d752b0de71d4ec502213_1440w.jpg)
+
+![img](./assets/v2-a4bd1f354d7020438cfa537ad8d65fc1_1440w.jpg)
+
+XLR combo 接口：
+
+![img](./assets/v2-cacd79f4e36117faf48a0b6fe42b89a8_1440w.jpg)
+
 *   **XLR (卡侬头)**：最常见的平衡接口（公头/母头定义，Pin 1地，Pin 2热，Pin 3冷）
 *   **1/4" (6.35mm) 插头**：大三芯 TRS（平衡/立体声）与 大二芯 TS（非平衡/单声道/吉他线）
 *   **1/8" (3.5mm) 插头**：常见消费级耳机/AUX接口（TRS/TRRS）
 *   **RCA (莲花头)**：常见于DJ设备、家庭影院（非平衡）
 *   **Speakon (NL2/NL4/NL8)**：专业无源音箱连接头（防呆、锁扣设计）
 
-### 4. 常见数字与网络音频接口 (Digital & Network Protocols - 基础提及)
-*   **传统数字接口**：MIDI (5-pin DIN), S/PDIF (同轴/光纤), AES/EBU, ADAT (光纤)
-*   **网络数字协议 (AoIP)**：Dante, AVB, MADI, SoundGrid (系统拓扑扩展)
+### 4. 常见数字与网络音频接口 (Digital & Network Protocols)
+*   **传统数字接口**：**MIDI (5-pin DIN)**, S/PDIF (同轴/光纤), AES/EBU, ADAT (光纤)
+*   **网络数字协议 (AoIP)**：**Dante**, AVB, MADI, SoundGrid (系统拓扑扩展)
 
 ---
 
@@ -141,6 +158,7 @@
     *   动圈麦克风 (Dynamic)：耐高声压级(SPL)，无需供电（如 Shure SM58/SM57）
     *   电容麦克风 (Condenser)：灵敏度高，频响宽，需 48V 幻象电源 (Phantom Power)
     *   铝带麦克风 (Ribbon)：脆弱，音色温暖复古
+    ![img](./assets/v2-a540c17c8e50b3fbda5e88047f1ed9f5_1440w.webp)
 *   **指向性 (Polar Patterns)**：全指向 (Omnidirectional)、心形 (Cardioid)、超心形 (Supercardioid)、8字型 (Figure-8/Bidirectional)
 *   **近讲效应 (Proximity Effect)**
 
