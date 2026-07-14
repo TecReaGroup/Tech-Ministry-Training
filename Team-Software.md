@@ -4,7 +4,9 @@
 
 具体使用网址，账户密码，线下传递
 
+打谱软件 guitar pro， musescore
 
+声学测量软件
 
 ## 1. Navidrome & 音流 & 云服务器 & 音频元数据
 

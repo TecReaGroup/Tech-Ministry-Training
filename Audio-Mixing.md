@@ -1,96 +1,63 @@
-db & 安全音量大小
+# 混音基础教程
 
-输入 处理 输出 模型
+## 硬件设备
 
-数字信号 midi 信号 模拟信号
+- 电脑：mac，windows
+- 监听音响 / 监听耳机（为了在绝大多数耳机上差不多效果，所以要**保持中立**）：频响曲线，衡量音频设备（如耳机、音响、麦克风）还原声音能力的图表
+  - 监听音响：平直曲线
+    ![image-20260714013806744](./assets/image-20260714013806744.png)
+    
+  - 监听耳机：哈曼曲线
+  
+    ![关于哈曼曲线的若干解释与澄清- 知乎](./assets/v2-4f1777d550dfd4cf71c352118b073515_1440w.jpg)
+  
+- 专业声卡
 
-混音 cubase
+  ![Product image 1](./assets/H9aa7634b03364d9aa3e8cad1a0037c59S.jpg_300x300.jpg)
 
-时序器
+## 软件
 
-bus 舞台监听
+- DAW（音频工作站 / 宿主软件）
 
-打谱软件 guitar musescore
+  ![Pro Tools Easy Guide for Beginners - Blog | Splice](./assets/0825-Pro-Tools-Easy-guide-for-beginners_BlogPost.png)
 
-声学测量软件
+- 插件
 
-## 大纲
+  - 软件乐器
+  - 软件效果器
+  ![img](https://www.soundhouse.co.jp/contents/uploads/2/2021/6/20210622_2_13141.jpg)
 
-**“物理声学基础 -> 硬件与信号流 -> 核心处理技术 -> 录音室混音实战 -> 现场扩音与系统调试 -> 前沿与进阶”**
+- 打谱软件
 
-### 第一阶段：声音、声学与数字音频基础
+  - 西贝柳斯（Sibelius）
 
-**目标：建立科学的听觉认知和物理概念，理解数字与模拟的区别。**
+    ![西贝柳斯（Sibelius）打谱软件完全使用教程：从入门到精通，看这一篇就够了_西贝柳斯打击乐特殊符号在哪符号-CSDN博客](./assets/609a9c55216a4cc4a7d63cb53a021cf1.png)
 
-*   **1.1 物理声学基础**
-    *   声波的物理特性（频率、振幅、波长、相位、声速）
-    *   声音的传播原理（反射、吸收、折射、衍射）
-    *   梳状滤波效应（Comb Filtering）与相位抵消
-    *   驻波（Standing Waves）与房间共振模式（Room Modes）
-*   **1.2 心理声学与听觉特性**
-    *   等响度曲线（Fletcher-Munson Curves / 弗莱彻-芒森曲线）
-    *   哈斯效应（Haas Effect）与优先效应
-    *   听觉掩蔽效应（时域与频域）
-    *   双耳声源定位（时间差 ITD 与强度差 ILD）
-*   **1.3 电声学基础**
-    *   分贝系统（dB SPL, dBu, dBV, dBFS 的定义与换算）
-    *   阻抗（Impedance）匹配与桥接（高阻抗与低阻抗）
-    *   平衡与非平衡信号传输原理（共模抑制比 CMRR）
-*   **1.4 数字音频理论**
-    *   模数/数模转换（ADC / DAC）
-    *   采样率（Sample Rate）与奈奎斯特采样定理（Nyquist Theorem）
-    *   位深度（Bit Depth）与动态范围（Dynamic Range）、量化噪声、抖动（Dither）
-    *   系统延迟（Latency）与字时钟（Word Clock）
+  - guitar pro
 
-### 第二阶段：设备认知与信号流
+    ![img](./assets/guitar_pro_7_copy_5000x.jpeg)
 
-**目标：掌握所有音频硬件的特性与操作，彻底搞懂“声音从哪来，经过哪，到哪去”。**
+    
 
-*   **2.1 麦克风技术**
-    *   拾音原理分类（动圈、电容、铝带式）
-    *   指向性（全指向、心形、超心形、8字形、枪式）
-    *   麦克风参数解读（灵敏度、最大声压级、频率响应、底噪）
-    *   近讲效应（Proximity Effect）与离轴染色（Off-axis Coloration）
-*   **2.2 线缆、接口与周边设备**
-    *   常见接口（XLR, TRS, TS, RCA, Speakon, BNC）
-    *   DI盒（主动与被动DI的区别与应用场景）
-    *   分线盒（Stagebox）与隔离变压器
-*   **2.3 调音台架构（模拟与数字）**
-    *   输入通道条（前置放大器 Mic Preamp, 幻象电源 48V, 极性反转 Phase/Polarity, Pad衰减）
-    *   信号流节点（Insert插入点, Direct Out直接输出）
-    *   母线系统（Aux Send 辅助发送前/后推子, Group/Subgroup 编组, Matrix 矩阵输出, LCR 主输出）
-    *   控制组（VCA / DCA 编组的原理与应用）
-    *   数字调音台特有功能（Layer层级, Routing跳线, Scene/Snapshot场景记忆, Offline Editor离线编辑）
+### 效果器
 
-### 第三阶段：核心信号处理技术
+[一个视频搞懂混音基础知识 专业术语 软件硬件 混响 压缩 均衡EQ 数字模拟 混音入门必看视频](https://www.bilibili.com/video/BV1bv4y1v7FH?p=4&vd_source=34e7d6e2081c3f2ce5f5123116b3beaf)
 
-**目标：掌握塑造声音的三大核心工具：频域、动态与时空域处理。**
+- 基础效果器
 
-*   **3.1 增益架构（Gain Staging）**
-    *   信噪比（S/N Ratio）与动态余量（Headroom）
-    *   系统增益级的黄金法则与失真避免
-*   **3.2 均衡处理（Equalization）**
-    *   EQ种类（图示均衡 GEQ、参数均衡 PEQ、搁架式 Shelving、动态均衡 Dynamic EQ）
-    *   高通/低通滤波器（HPF/LPF）及其斜率（Slope/Octave）
-    *   频段划分与乐器基频/泛音列识别
-    *   减法EQ（去频段）与加法EQ（染色）的哲学
-*   **3.3 动态处理（Dynamics）**
-    *   压缩器（Compressor）：四大参数（Threshold, Ratio, Attack, Release）、Knee（拐点）、Make-up Gain
-    *   压缩器类型与染色（VCA, FET, 光学Opto, 电子管Vari-Mu）
-    *   限制器（Limiter）与砖墙限制
-    *   噪声门（Noise Gate）与扩展器（Expander）
-    *   多频段压缩（Multiband Compression）
-    *   侧链（Sidechain）技术与闪避（Ducking）
-    *   De-esser（消除齿音）
-*   **3.4 空间与时间效果（Time-Based Effects）**
-    *   混响（Reverb）：参数解析（Pre-delay, Decay Time, Diffusion, Damping），种类（Hall, Room, Plate, Spring, Convolution/采样混响）
-    *   延迟（Delay）：Slapback, Ping-Pong, 拍速计算（BPM to ms）
-    *   调制类效果（Chorus, Flanger, Phaser）及其相位原理
-*   **3.5 谐波与失真处理（Harmonics/Saturation）**
-    *   磁带/电子管饱和（Saturation）
-    *   激励器（Exciter）与失真（Distortion/Overdrive）
+  - 均衡器EQ
 
-### 第四阶段：录音室混音实战（Studio Mixing）
+    ![image-20260714021655312](./assets/image-20260714021655312.png)
+
+  - 动态处理器
+
+    ![image-20260714021943543](./assets/image-20260714021943543.png)
+
+  - 空间效果器
+
+    ![image-20260714022712533](./assets/image-20260714022712533.png)
+
+### 混音实战（Mixing）
 
 **目标：能在DAW（数字音频工作站）中完成商业级音乐混音。**
 
